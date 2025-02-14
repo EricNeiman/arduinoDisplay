@@ -31,7 +31,7 @@ const char* password = "YOUR_WIFI_PASSWORD";
 
 // NTP Server details
 const char* ntpServer = "pool.ntp.org";
-const long gmtOffset_sec = 0;      // Change this based on your timezone (in seconds)
+const long gmtOffset_sec = -18000; // EST timezone offset in seconds
 const int daylightOffset_sec = 3600; // Change if you have daylight savings
 
 void led() {
@@ -129,6 +129,6 @@ void loopDisplay() {
 void loop() {
   displayTime();
   delay(1000);
-  led();
+  // led();
   // loopDisplay();
 }
