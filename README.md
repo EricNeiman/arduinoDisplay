@@ -24,3 +24,11 @@ This is a simple Arduino project that uses various displays to show information.
 
 1. Fully implement the I2C display OLED Display following the Last Minute Engineers [tutorial](https://lastminuteengineers.com/oled-display-arduino-tutorial/)
 2. Implement an SPI display.
+
+## Notes
+
+1. OLED Memory Map: ![OLED Memory Map](./assets/1KB-128x64-OLED-Display-RAM-Memory-Map.webp)
+
+> 8 pages x 128 segments x 8 bits of data = 8192 bits = 1024 bytes = 1KB memory
+
+2. OLED Display Pinout: GND, VCC, SCL, SDA
